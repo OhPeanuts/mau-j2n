@@ -59,7 +59,6 @@ Gitリポジトリのホスティングサービスで、世界中の人がコ�
 
 
 <br><br>
-<br><br>
 
 
   # 出題5 作業記録
@@ -91,7 +90,7 @@ xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
 
 エラーが出ている
 
-
+<br><br>
 2. gitをMacにインストールする際はHomebrewを使うらしいのでバージョンを確認
 
 ```
@@ -116,14 +115,14 @@ Homebrew/homebrew-core (no Git repository)
 
 [https://blog1.mammb.com/entry/2019/12/03/225607](https://blog1.mammb.com/entry/2019/12/03/225607)
 
-*エラーの解消方法*
+**エラーの解消方法**
 
 MacのOSアプデ後起こるものらしく、Xcodeをインストールし直すことで解消
 
 ```
 $ xcode-select --install
 ```
-
+<br><br>
 3. 再度Homebrewバージョン確認
 
 ```
@@ -132,7 +131,7 @@ $ brew -v
 Homebrew 3.6.8
 Homebrew/homebrew-core (git revision 8b9be9832a0; last commit 2022-11-05)
 ```
-
+<br><br>
 4. 再度gitのバージョン確認
 
 
@@ -143,7 +142,7 @@ git version 2.37.1 (Apple Git-137.1)
 ```
 デフォルトで入っているgitが表示される
 
-
+<br><br>
 5. gitインストール
 
 今回は標準でインストールされているgitではなく、Homebrewでインストールしたgitを使用
@@ -174,10 +173,9 @@ install-on-request: 344,054 (30 days), 1,065,657 (90 days), 3,734,313 (365 days)
 build-error: 42 (30 days)
 ```
 
-
+<br><br>
 6. インストールしたgitを使用するためにシェルのパスを設定
 
-<br><br>
 
 シェル確認
 
@@ -364,7 +362,7 @@ fatal: Authentication failed for 'https://github.com/OhPeanuts/mau-j2n.git/'
  仮説：認証方法が代わり、アクセストークンを作成し、使用する必要がある
 
 
-*参考サイト*
+**参考サイト**
 
 [https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
