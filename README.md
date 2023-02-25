@@ -349,7 +349,6 @@ git remote add origin https://github.com/OhPeanuts/mau-j2n.git
 git branch -M main
 git push -u origin main
 ```
-<br><br>
 
 
 - push実行時にユーザ名とパスワードを聞かれ入力するも以下エラーが出る
@@ -378,6 +377,8 @@ https://ios-docs.dev/20210813support-for-password/)
 Personal access tokenは、GitHub API またはコマンド ラインを使用する場合に、GitHub に対する認証でパスワードの代わりに使用できるもの
 
 
+**解決方法**
+GitHub右上アイコン >settings >Developer settings >Personal Access tokens >fine-Grained tokensにてトークンを新規作成する
 
 
 ## githubアカウントの作成
